@@ -142,8 +142,8 @@ a {
 }
 
 .field:focus-within {
-  border-color: var(--silver-deep);
-  box-shadow: 0 0 0 2px rgba(39, 153, 246, 0.12);
+  border-color: var(--red);
+  box-shadow: 0 0 0 2px rgba(255, 9, 9, 0.12);
 }
 
 .field-icon {
