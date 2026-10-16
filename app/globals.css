@@ -152,7 +152,7 @@ a {
   flex-shrink: 0;
 }
 
-.field:focus-within .field- {
+.field:focus-within .field-icon {
   color: var(--icon);
 }
 
