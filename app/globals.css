@@ -15,6 +15,7 @@
   --silver: #a9cdf5;
   --silver-light: #e6f2ff;
   --silver-deep: #6fa6dd;
+  --icon: #8f1b21;
   --red: linear-gradient(160deg, #f0666a 0%, #cc2a31 46%, #8f1b21 100%);
   --brand: linear-gradient(110deg, #f4f9ff 0%, #bcdaff 42%, #e5484f 78%, #a1232a 100%);
 }
@@ -142,7 +143,7 @@ a {
 }
 
 .field:focus-within {
-  border-color: var(--red);
+  border-color: var(--icon);
   box-shadow: 0 0 0 2px rgba(255, 9, 9, 0.12);
 }
 
@@ -151,8 +152,8 @@ a {
   flex-shrink: 0;
 }
 
-.field:focus-within .field-icon {
-  color: var(--red);
+.field:focus-within .field- {
+  color: var(--icon);
 }
 
 .field input {
